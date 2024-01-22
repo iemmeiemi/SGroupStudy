@@ -24,7 +24,9 @@ body {
 
 .cl-theme {
     color: rgba(177, 107, 241, 0.863);
-}42%;
+}
+.skill {
+    width: 42%;
 }
 
 .skill {
