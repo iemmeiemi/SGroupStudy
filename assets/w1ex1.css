@@ -6,6 +6,8 @@
     
 }
 
+
+
 body {
     padding-inline: 30%;
     padding-block: 30px;
@@ -59,7 +61,7 @@ body {
 }
 
 .skills {
-    width: 48%;
+    width: 42%;
 }
 
 .skill {
@@ -76,7 +78,7 @@ body {
 
 .experience {
     display: inline-block;
-    width: 48%;
+    width: 42%;
     font-size: 10px;
 }
 
