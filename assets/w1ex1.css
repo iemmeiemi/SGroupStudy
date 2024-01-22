@@ -9,8 +9,10 @@
 
 
 body {
-    padding-inline: 30%;
+    width:90%;
+    padding-inline: 20%;
     padding-block: 30px;
+    margin: auto;
 }
 
 .sp-t {
@@ -28,14 +30,10 @@ body {
     color: rgba(177, 107, 241, 0.863);
 }
 
-.bgcl-theme {
-    background-color: rgba(177, 107, 241, 0.863);
-}
-
 
 .greetblock {
-    width: 50%;
-   
+    width: 45%;
+
 }
 
 
@@ -44,7 +42,7 @@ body {
     margin-right: 10px;
     font-weight: 700;
     display: inline-block;
-    
+
 }
 
 .extra-info>.p1 {
@@ -59,6 +57,7 @@ body {
     width: 85px; height: 1px; margin-top: 5px;
     margin-bottom: 20px;
 }
+
 
 .skills {
     width: 42%;
