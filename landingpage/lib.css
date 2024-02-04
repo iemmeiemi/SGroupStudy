@@ -1,0 +1,240 @@
+/* Column sizes */
+
+/* 
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+} */
+
+@media only screen and (min-width: 900px) {
+    
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+/* Responsive */
+@media only screen and (max-width: 900px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+      /* flex-basis: 100%; */
+      width: 100%;
+    }
+}
+
+
+
+:root {
+    --theme-color: rgb(222, 7, 7);
+    --white--text: white;
+    --grey-color: rgba(234, 234, 234, 0.312);
+    --grey-text: grey;
+    --grey-border: rgba(128, 128, 128, 0.237);
+    --yellow-star: rgba(237, 237, 1, 0.808);
+
+}
+
+
+h1,h2,h3,h4, .hd-font {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.t-white {
+    color: var(--white--text);
+}
+
+.t-grey {
+    color: var(--grey-text);
+}
+
+.t-upper {
+    text-transform: uppercase;
+}
+
+.t-light {
+    font-weight: 200;
+}
+
+.t-df {
+    font-weight: 400;
+}
+
+.t-strong {
+    font-weight: 700;
+}
+
+.t-ct {
+    text-align: center;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-17 {
+    font-size: 17px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.f-32 {
+    font-size: 32px;
+}
+
+.f-38 {
+    font-size: 38px;
+}
+
+.f-50 {
+    font-size: 50px;
+}
+
+.lh-28 {
+    line-height: 28px;
+}
+
+.pbl-df {
+    padding-block: 15px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-40 {
+    width: 30%;
+}
+
+.bd-theme {
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.bd-grey {
+    border-color: var(--grey-border);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.mb-df {
+    margin-bottom: 25px;
+}
+
+.mb-small {
+    margin-bottom: 10px;
+}
+
+.mr-df {
+    margin-right: 15px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.p-block {
+    padding-inline: 10px;
+    padding-block: 20px;
+}
+
+
+
+.sp-hd {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.bg-white {
+    background-color: var(--white--text);
+}
+
+.bg-grey {
+    background-color: var(--grey-color);
+}
+
+.bg-ali {
+    background-color: aliceblue;
+}
+
+.bg-red {
+    background-color: rgb(239, 36, 36);
+}
+
+.bg-green {
+    background-color: rgb(21, 154, 21);
+}
+
+.bg-blue {
+    background-color: rgb(42, 42, 214);
+}
+
+.t-yellow {
+    color: var(--yellow-star);
+}
+
+.cl-theme {
+    background-color: var(--theme-color);
+}
+
+.d-il {
+    display: inline-block;
+}
+
+.d-fl {
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.fl-cl {
+    flex-direction: column;
+}
+
+.fl-ct {
+    justify-content: center;
+}
+
+.fl-alct {
+    align-items: center;
+}
+
+.fl-spar {
+    justify-content: space-around;
+}
+
+.fl-spev {
+    justify-content: space-evenly;
+}
+
+.fl-spbt {
+    justify-content: space-between;
+}
